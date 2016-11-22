@@ -1,0 +1,6 @@
+Bundle-Name: Eclipse Concierge PackageAdmin Service (Incubation)
+Bundle-Version: 5.1.0.${tstamp}
+Bundle-Activator: org.eclipse.concierge.compat.packageadmin.Activator
+-buildpath: org.eclipse.concierge;version=5.0
+Private-Package: org.eclipse.concierge.compat.packageadmin
+Export-Package: org.osgi.service.packageadmin

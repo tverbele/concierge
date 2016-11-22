@@ -1,0 +1,4 @@
+Bundle-Name: Eclipse Concierge Permission Service (Incubation)
+Bundle-Version: 5.1.0.${tstamp}
+-buildpath: org.eclipse.concierge;version=5.0
+Export-Package: org.osgi.service.condpermadmin,org.osgi.service.permissionadmin

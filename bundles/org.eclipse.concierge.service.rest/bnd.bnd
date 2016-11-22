@@ -1,0 +1,12 @@
+Bundle-Name: Eclipse Concierge Rest Service (Incubation)
+Bundle-Version: 5.1.0.${tstamp}
+Bundle-Activator: org.osgi.impl.service.rest.Activator
+-buildpath: \
+	org.eclipse.concierge;version=5.0,\
+	org.restlet;version=2.0,\
+	org.json;version=1.0
+Private-Package: \
+	org.osgi.impl.service.rest,\
+	org.osgi.impl.service.rest.pojos,\
+	org.osgi.impl.service.rest.resources
+Export-Package: org.osgi.service.rest

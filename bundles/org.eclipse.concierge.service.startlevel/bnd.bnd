@@ -1,0 +1,6 @@
+Bundle-Name: Eclipse Concierge StartLevel Service (Incubation)
+Bundle-Version: 5.1.0.${tstamp}
+-buildpath: org.eclipse.concierge;version=5.0
+Export-Package: org.osgi.service.startlevel
+Private-Package: org.eclipse.concierge.compat.startlevel
+Bundle-Activator: org.eclipse.concierge.compat.startlevel.Activator

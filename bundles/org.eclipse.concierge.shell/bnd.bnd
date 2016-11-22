@@ -1,0 +1,9 @@
+Bundle-Name: Eclipse Concierge Shell (Incubation)
+Bundle-Version: 5.1.0.${tstamp}
+Bundle-Activator: org.eclipse.concierge.shell.ShellActivator
+-buildpath: org.eclipse.concierge;version=5.0
+Export-Package: org.eclipse.concierge.shell.commands
+Private-Package: org.eclipse.concierge.shell
+Import-Package: \
+	org.osgi.service.packageadmin;resolution:=optional,\
+	*

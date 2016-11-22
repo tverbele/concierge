@@ -1,0 +1,8 @@
+Bundle-Name: Eclipse Concierge XmlParser Service (Incubation)
+Bundle-Version: 5.1.0.${tstamp}
+-buildpath: org.eclipse.concierge;version=5.0
+Bundle-Activator: org.eclipse.concierge.service.xmlparser.internal.Activator
+Private-Package: \
+	org.eclipse.concierge.service.xmlparser.internal,\
+	org.osgi.util.xml
+-includeresource: META-INF/services=META-INF/services

@@ -1,0 +1,5 @@
+Bundle-Name: EEclipse Concierge Rest Service Client (Incubation)
+Bundle-Version: 5.1.0.${tstamp}
+Bundle-Activator: org.osgi.impl.service.rest.Activator
+-buildpath: \
+	org.eclipse.concierge;version=6.0

@@ -1,0 +1,10 @@
+#
+# -ORBIT-
+# 
+# Fetch dependencies from Orbit
+#
+
+-plugin.Orbit.Neon: \
+    aQute.bnd.repository.p2.provider.P2Repository; \
+        name = "Orbit (Neon)"; \
+ 		url = "http://download.eclipse.org/tools/orbit/downloads/drops/R20160520211859/repository/"
