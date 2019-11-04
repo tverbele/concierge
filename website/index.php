@@ -46,7 +46,7 @@
       </div>
       <div class="col-md-6">
         <p class="feature-header">OSGi R5</p>
-        <p class="feature-body">Concierge implements the <a href="http://www.osgi.org/Release5/HomePage">OSGi R5</a> APIs. We strictly adhere the OSGi Core specification, and omit any optional services to keep our low footprint. If needed, some extra services can be installed as separate bundles.</p>
+        <p class="feature-body">Concierge implements the <a href="https://www.osgi.org/developer/specifications/">OSGi R5</a> APIs. We strictly adhere the OSGi Core specification, and omit any optional services to keep our low footprint. If needed, some extra services can be installed as separate bundles.</p>
       </div>
       </div>
     </div>
